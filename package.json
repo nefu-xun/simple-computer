@@ -1,0 +1,23 @@
+{
+  "name": "simple-computer",
+  "version": "0.0.1",
+  "main": "dist/simple-computer.umd.js",
+  "module": "dist/simple-computer.mjs",
+  "typings": "dist/simple-computer.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "pushnpm": "npm publish --registry https://registry.npmjs.org"
+  },
+  "keywords": ["简单四则运算", "工具包"],
+  "author": "",
+  "license": "MIT",
+  "description": "A simple toolkit for implementing basic four - arithmetic operations",
+  "devDependencies": {
+    "vite": "^6.0.3",
+    "vite-plugin-dts": "^4.3.0"
+  }
+}
