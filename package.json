@@ -1,6 +1,6 @@
 {
   "name": "simple-computer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/simple-computer.umd.js",
   "module": "dist/simple-computer.mjs",
   "typings": "dist/simple-computer.d.ts",

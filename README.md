@@ -15,7 +15,7 @@ import Computer from 'simple-computer';
 
 const computer = new Computer();
 const strExpression = '.1+2*3%-4/2-6';
-const rest = computer.compute(strExpression);
+const res = computer.compute(strExpression);
 
 if (res.error) {
   // 对于错误的表达式
